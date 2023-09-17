@@ -28,8 +28,16 @@ header {
     box-shadow: 0 3px 3px #eff2ef;
 }
 
+header a {
+    text-decoration: none;
+    color: inherit;
+}
+
 h1 {
     font-family: 'Kameron', serif;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: #43f44c;
 }
 
 /* Main content */
