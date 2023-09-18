@@ -95,6 +95,20 @@ footer {
     background-color: orange;
 }
 
+#social-networks {
+    text-align: center;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+#social-networks i {
+    font-size: 150%;
+    padding: 0 1.5rem;
+    color: #118617;
+}
+
 /* Media query: tablets and larger devices (768px plus) */
 @media screen and (min-width: 768px) {
 
