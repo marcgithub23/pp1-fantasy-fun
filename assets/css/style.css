@@ -18,6 +18,13 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
+h2 {
+    font-family: 'Kameron', serif;
+    text-transform: capitalize;
+    letter-spacing: 2px;
+    color: #118617;
+}
+
 /* Header */
 header {
     background-color: #201f1f;
@@ -95,6 +102,22 @@ main {
     height: 600px;
     width: 100%;
     background: url("../images/hero-image.jpg") no-repeat center center / cover;
+    position: relative;
+}
+
+#cover-text {
+    background-color: #211e1ea8;
+    font-size: 110%;
+    position: absolute;
+    bottom: 150px;
+    width: 85%;
+    min-height: 100px;
+    padding: 10px 10px;
+}
+
+#cover-text>h2,
+#cover-text>p {
+    color: #deec17;
 }
 
 /* Footer */
@@ -157,11 +180,26 @@ footer p {
         /* Push main content to show underneath larger header */
         margin-top: 75px;
     }
+
+    /* Hero */
+    #cover-text {
+        margin: 5%;
+    }
+
+    #cover-text>h2,
+    #cover-text>p {
+        text-align: center;
+    }
 }
 
 /* Media query: laptops and desktops large devices (992px plus) */
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #118617;
+    }
+
+    #cover-text {
+        width: 600px;
+        margin: 5% 30%;
     }
 }
