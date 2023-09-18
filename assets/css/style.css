@@ -95,6 +95,12 @@ footer {
     background-color: #201f1f;
 }
 
+footer p {
+    font-size: 0.75rem;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
 #social-networks {
     text-align: center;
     padding: 20px 0;
