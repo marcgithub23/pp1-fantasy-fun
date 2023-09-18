@@ -120,6 +120,38 @@ main {
     color: #deec17;
 }
 
+/* Reasons section */
+#reasons {
+    margin: 20px auto;
+    width: 90%;
+}
+
+#reasons h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 200%;
+}
+
+#reasons h3 {
+    text-align: center;
+    font-size: 120%;
+    text-transform: uppercase;
+}
+
+#reasons div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#reasons p {
+    padding: 0 2px;
+}
+
+#reasons hr {
+    border-top: 1px solid #eff2ef;
+    margin: 5px 0;
+}
+
 /* Footer */
 footer {
     background-color: #201f1f;
