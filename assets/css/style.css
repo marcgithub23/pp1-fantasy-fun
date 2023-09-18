@@ -120,39 +120,46 @@ main {
     color: #deec17;
 }
 
-/* Reasons section */
-#reasons {
+/* Reasons and info sections */
+#reasons,
+#info {
     margin: 20px auto;
     width: 90%;
 }
 
-#reasons h2 {
+#reasons h2,
+#info h2 {
     margin-bottom: 20px;
     text-align: center;
     font-size: 200%;
 }
 
-#reasons h3 {
+#reasons h3,
+#info h3 {
     text-align: center;
     font-size: 120%;
     text-transform: uppercase;
 }
 
-#reasons div {
+#reasons div,
+#info div {
     line-height: 20px;
     margin-bottom: 20px;
 }
 
-#reasons p {
+#reasons p,
+#info p,
+#info ul {
     padding: 0 2px;
 }
 
-#reasons hr {
+#reasons hr,
+#info hr {
     border-top: 1px solid #deec17;
     margin: 5px 0;
 }
 
-#circle-cover-bg {
+#circle-cover-bg1 {
     background: url("../images/reasons-image.png") no-repeat center center / cover;
     height: 90vw;
     width: 90vw;
@@ -163,7 +170,19 @@ main {
     max-height: 300px;
 }
 
-#reasons-image {
+#circle-cover-bg2 {
+    background: url("../images/info-image.png") no-repeat center center / cover;
+    height: 90vw;
+    width: 90vw;
+    margin-bottom: 20px;
+    /* Turn square image into circle */
+    border-radius: 50%;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+#reasons-image,
+#info-image {
     display: flex;
     align-items: center;
     justify-content: center;
