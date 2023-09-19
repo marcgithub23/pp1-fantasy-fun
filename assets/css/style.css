@@ -202,6 +202,37 @@ main {
 }
 
 /* Book club page */
+#bookclub-desc,
+#meet-up,
+#rules {
+    margin: 20px auto;
+    width: 90%;
+}
+
+#bookclub-desc h2,
+#meet-up h2,
+#rules h2 {
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 200%;
+}
+
+#bookclub-desc h3,
+#meet-up h3 {
+    font-size: 120%;
+    text-transform: uppercase;
+}
+
+#bookclub-desc div,
+#meet-up div {
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+#bookclub-desc p,
+#meet-up p {
+    padding: 0 2px;
+}
 
 /* Map */
 #map-wrapper {
