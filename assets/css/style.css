@@ -188,6 +188,11 @@ main {
     justify-content: center;
 }
 
+/* Fanart gallery */
+#photos img {
+    width: 100%;
+}
+
 /* Footer */
 footer {
     background-color: #201f1f;
