@@ -25,6 +25,11 @@ h2 {
     color: #118617;
 }
 
+hr {
+    border-top: 1px solid #deec17;
+    margin: 5px 0;
+}
+
 /* Header */
 header {
     background-color: #201f1f;
@@ -151,12 +156,6 @@ main {
 #info p,
 #info ul {
     padding: 0 2px;
-}
-
-#reasons hr,
-#info hr {
-    border-top: 1px solid #deec17;
-    margin: 5px 0;
 }
 
 #circle-cover-bg1 {
