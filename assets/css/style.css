@@ -198,6 +198,19 @@ main {
     line-height: 0;
 }
 
+/* Book club page */
+/* Map */
+#map-wrapper {
+    height: 300px;
+    margin-bottom: 107px;
+}
+
+#map {
+    height: 100%;
+    width: 100%;
+    border: none;
+}
+
 /* Footer */
 footer {
     background-color: #201f1f;
