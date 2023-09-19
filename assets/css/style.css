@@ -347,6 +347,20 @@ footer p {
     #photos {
         column-count: 3;
     }
+
+    /* Form */
+    #signup-form {
+        max-width: 400px;
+    }
+
+    .text-input:hover {
+        border-color: #118617;
+    }
+
+    .join-button:hover {
+        background-color: #deec17;
+        color: #118617;
+    }
 }
 
 /* Media query: laptops and desktops large devices (992px plus) */
