@@ -193,6 +193,10 @@ main {
     width: 100%;
 }
 
+#photos {
+    line-height: 0;
+}
+
 /* Footer */
 footer {
     background-color: #201f1f;
