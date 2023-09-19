@@ -191,6 +191,8 @@ main {
 /* Fanart gallery */
 #photos img {
     width: 100%;
+    /* Adjust for image alt text */
+    line-height: 1em;
 }
 
 #photos {
