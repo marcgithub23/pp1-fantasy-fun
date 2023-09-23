@@ -23,6 +23,25 @@ h2 {
     text-transform: capitalize;
     letter-spacing: 2px;
     color: #118617;
+    margin-bottom: 20px;
+    text-align: center;
+    font-size: 200%;
+}
+
+h3 {
+    text-align: center;
+    font-size: 120%;
+    text-transform: uppercase;
+}
+
+p,
+ul {
+    padding: 0 2px;
+}
+
+div {
+    line-height: 20px;
+    margin-bottom: 20px;
 }
 
 hr {
@@ -135,32 +154,6 @@ main {
     width: 90%;
 }
 
-#reasons h2,
-#info h2 {
-    margin-bottom: 20px;
-    text-align: center;
-    font-size: 200%;
-}
-
-#reasons h3,
-#info h3 {
-    text-align: center;
-    font-size: 120%;
-    text-transform: uppercase;
-}
-
-#reasons div,
-#info div {
-    line-height: 20px;
-    margin-bottom: 20px;
-}
-
-#reasons p,
-#info p,
-#info ul {
-    padding: 0 2px;
-}
-
 #circle-cover-bg1 {
     background: url("../images/reasons-image.png") no-repeat center center / cover;
     height: 90vw;
@@ -207,31 +200,6 @@ main {
 #rules {
     margin: 20px auto;
     width: 90%;
-}
-
-#bookclub-desc h2,
-#meet-up h2,
-#rules h2 {
-    margin-bottom: 20px;
-    text-align: center;
-    font-size: 200%;
-}
-
-#bookclub-desc h3,
-#meet-up h3 {
-    font-size: 120%;
-    text-transform: uppercase;
-}
-
-#bookclub-desc div,
-#meet-up div {
-    line-height: 20px;
-    margin-bottom: 20px;
-}
-
-#bookclub-desc p,
-#meet-up p {
-    padding: 0 2px;
 }
 
 /* Map */
