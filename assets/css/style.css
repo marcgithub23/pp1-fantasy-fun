@@ -49,6 +49,23 @@ hr {
     margin: 5px 0;
 }
 
+/* General section styles */
+#reasons,
+#info,
+#bookclub-desc,
+#meet-up,
+#rules,
+#high-fantasy,
+#low-fantasy,
+#grimdark-fantasy,
+#portal-fantasy,
+#urban-fantasy,
+#steampunk-fantasy,
+#fairytale-retelling-fantasy {
+    margin: 20px auto;
+    width: 90%;
+}
+
 /* Header */
 header {
     background-color: #201f1f;
@@ -148,11 +165,6 @@ main {
 }
 
 /* Reasons and info sections */
-#reasons,
-#info {
-    margin: 20px auto;
-    width: 90%;
-}
 
 #circle-cover-bg1 {
     background: url("../images/reasons-image.png") no-repeat center center / cover;
@@ -195,12 +207,7 @@ main {
 }
 
 /* Book club page */
-#bookclub-desc,
-#meet-up,
-#rules {
-    margin: 20px auto;
-    width: 90%;
-}
+
 
 /* Map */
 #map-wrapper {
