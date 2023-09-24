@@ -53,6 +53,11 @@ hr {
     display: none;
 }
 
+.bold-yellow {
+    font-weight: bold;
+    color: #deec17;
+}
+
 /* General section styles */
 #reasons,
 #info,
