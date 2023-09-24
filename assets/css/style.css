@@ -49,6 +49,10 @@ hr {
     margin: 5px 0;
 }
 
+.hidden-heading {
+    display: none;
+}
+
 /* General section styles */
 #reasons,
 #info,
