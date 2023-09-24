@@ -449,8 +449,8 @@ footer p {
     #urban-fantasy img,
     #steampunk-fantasy img,
     #fairytale-retelling-fantasy img {
-        max-width: 20%;
-        max-height: 20%;
+        max-width: 40%;
+        max-height: 40%;
     }
 
     .row {
