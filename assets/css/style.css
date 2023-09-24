@@ -195,6 +195,19 @@ main {
     justify-content: center;
 }
 
+/* Subgenres & Recommendations page */
+#high-fantasy img,
+#low-fantasy img,
+#grimdark-fantasy img,
+#portal-fantasy img,
+#urban-fantasy img,
+#steampunk-fantasy img,
+#fairytale-retelling-fantasy img {
+    width: 100%;
+    /* Adjust for image alt text */
+    line-height: 1em;
+}
+
 /* Fanart gallery */
 #photos img {
     width: 100%;
