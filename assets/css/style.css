@@ -250,6 +250,13 @@ main {
     border-bottom: 3px solid #deec17;
 }
 
+#bookclub-desc img {
+    width: 100%;
+    /* Adjust for image alt text */
+    line-height: 1em;
+    margin-top: 5px;
+}
+
 /* Map */
 #map-wrapper {
     height: 300px;
@@ -415,6 +422,12 @@ footer p {
         margin-top: 12px;
     }
 
+    /* Book club page */
+    #bookclub-desc img {
+        max-width: 50%;
+        max-height: 50%;
+    }
+
     /* Form */
     #signup {
         display: flex;
@@ -470,5 +483,11 @@ footer p {
     /* Fanart gallery */
     #photos {
         column-count: 4;
+    }
+
+    /* Book club page */
+    #bookclub-desc img {
+        max-width: 25%;
+        max-height: 25%;
     }
 }
