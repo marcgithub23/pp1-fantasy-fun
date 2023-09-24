@@ -408,6 +408,8 @@ footer p {
     /* Fanart gallery */
     #photos {
         column-count: 3;
+        /* Avoid cutting off the top bit of images on larger screens */
+        margin-top: 12px;
     }
 
     /* Form */
