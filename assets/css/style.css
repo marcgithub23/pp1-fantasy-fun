@@ -53,6 +53,13 @@ hr {
     display: none;
 }
 
+.subgenre {
+    display: inline-block;
+    border-bottom: 3px solid #deec17;
+    font-weight: 900;
+    font-size: 120%;
+}
+
 .book-title {
     font-weight: bold;
     font-size: 115%;
