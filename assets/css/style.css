@@ -58,6 +58,11 @@ hr {
     color: #deec17;
 }
 
+.italic-yellow {
+    font-style: italic;
+    color: #deec17;
+}
+
 /* General section styles */
 #reasons,
 #info,
@@ -203,6 +208,18 @@ main {
     align-items: center;
     justify-content: center;
 }
+
+/* Quote section */
+#quote-text {
+    background-color: #211e1ea8;
+    font-size: 110%;
+    bottom: 150px;
+    width: 85%;
+    min-height: 100px;
+    padding: 10px 10px;
+    margin: 5% auto;
+}
+
 
 /* Subgenres & Recommendations page */
 #high-fantasy img,
@@ -406,6 +423,12 @@ footer p {
     #cover-text>h2,
     #cover-text>p {
         text-align: center;
+    }
+
+    /* Quote section */
+    #quote-text {
+        max-width: 50%;
+        margin: 5% auto;
     }
 
     /* Subgenres & Recommendations page */
