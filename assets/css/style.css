@@ -362,6 +362,18 @@ footer p {
         text-align: center;
     }
 
+    /* Subgenres & Recommendations page */
+    #high-fantasy img,
+    #low-fantasy img,
+    #grimdark-fantasy img,
+    #portal-fantasy img,
+    #urban-fantasy img,
+    #steampunk-fantasy img,
+    #fairytale-retelling-fantasy img {
+        max-width: 50%;
+        max-height: 50%;
+    }
+
     /* Fanart gallery */
     #photos {
         column-count: 3;
