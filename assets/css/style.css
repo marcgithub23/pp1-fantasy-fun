@@ -378,6 +378,11 @@ footer p {
         margin-top: 75px;
     }
 
+    main div {
+        max-width: 75%;
+        margin: auto;
+    }
+
     /* Hero */
     #cover-text {
         margin: 5%;
