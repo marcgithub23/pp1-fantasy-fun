@@ -245,7 +245,10 @@ main {
 }
 
 /* Book club page */
-
+.bookclub-h3 {
+    display: inline-block;
+    border-bottom: 3px solid #deec17;
+}
 
 /* Map */
 #map-wrapper {
