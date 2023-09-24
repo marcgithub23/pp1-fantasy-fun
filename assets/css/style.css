@@ -324,7 +324,7 @@ footer p {
         display: block;
         position: relative;
         box-shadow: none;
-        width: fit-content;
+        width: auto;
         padding-right: 1rem;
     }
 
