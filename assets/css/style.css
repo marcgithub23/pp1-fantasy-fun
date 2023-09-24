@@ -226,6 +226,13 @@ main {
     line-height: 1em;
 }
 
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
 /* Fanart gallery */
 #photos img {
     width: 100%;
