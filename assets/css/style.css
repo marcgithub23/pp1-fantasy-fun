@@ -53,6 +53,13 @@ hr {
     display: none;
 }
 
+.book-title {
+    font-weight: bold;
+    font-size: 115%;
+    color: #deec17;
+    text-align: center;
+}
+
 /* General section styles */
 #reasons,
 #info,
