@@ -349,6 +349,12 @@ main {
     color: #deec17;
 }
 
+.center-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Footer */
 footer {
     background-color: #201f1f;
