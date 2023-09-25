@@ -94,7 +94,7 @@ header {
     box-shadow: 0 3px 3px #eff2ef;
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: center;
 }
 
 header a {
