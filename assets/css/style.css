@@ -18,8 +18,12 @@ body {
     font-family: 'Work Sans', sans-serif;
 }
 
-h2 {
+h1 {
     font-family: 'Kameron', serif;
+}
+
+h2 {
+    font-family: 'McLaren', cursive;
     text-transform: capitalize;
     letter-spacing: 2px;
     color: #118617;
