@@ -382,9 +382,28 @@ footer p {
 
 /* Media query: large phones or landscape mode (425px plus) */
 @media screen and (min-width: 425px) {
+    /* Fanart Gallery page */
     #photos {
         column-count: 2;
         column-gap: 0;
+    }
+
+    /* Subgenres & Recommendations page */
+    #high-fantasy img,
+    #low-fantasy img,
+    #grimdark-fantasy img,
+    #portal-fantasy img,
+    #urban-fantasy img,
+    #steampunk-fantasy img,
+    #fairytale-retelling-fantasy img {
+        max-width: 60%;
+        max-height: 60%;
+    }
+
+    /* Book Club page */
+    #bookclub-desc img {
+        max-width: 60%;
+        max-height: 60%;
     }
 }
 
