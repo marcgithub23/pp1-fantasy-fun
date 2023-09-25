@@ -380,8 +380,8 @@ footer p {
     color: #118617;
 }
 
-/* Media query: large phones or landscape mode (576px plus) */
-@media screen and (min-width: 576px) {
+/* Media query: large phones or landscape mode (425px plus) */
+@media screen and (min-width: 425px) {
     #photos {
         column-count: 2;
         column-gap: 0;
