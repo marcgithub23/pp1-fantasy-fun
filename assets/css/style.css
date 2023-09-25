@@ -233,6 +233,16 @@ main {
     line-height: 1em;
 }
 
+#high-fantasy h4,
+#low-fantasy h4,
+#grimdark-fantasy h4,
+#portal-fantasy h4,
+#urban-fantasy h4,
+#steampunk-fantasy h4,
+#fairytale-retelling-fantasy h4 {
+    margin-top: 2%;
+}
+
 .center-image {
     display: block;
     margin-left: auto;
