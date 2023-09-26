@@ -496,6 +496,10 @@ footer p {
         max-height: 50%;
     }
 
+    #discord i:hover {
+        color: #deec17;
+    }
+
     /* Form */
     #signup {
         display: flex;
