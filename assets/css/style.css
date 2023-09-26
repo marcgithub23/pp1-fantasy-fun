@@ -67,6 +67,10 @@ hr {
     color: #deec17;
 }
 
+.bigger-font {
+    font-size: 115%;
+}
+
 /* General section styles */
 #reasons,
 #info,
