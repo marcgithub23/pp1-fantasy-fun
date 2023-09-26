@@ -301,6 +301,12 @@ main {
     margin-top: 5px;
 }
 
+#discord i {
+    color: #118617;
+    font-size: 120%;
+    padding: 0 5px;
+}
+
 /* Map */
 #map-wrapper {
     height: 300px;
