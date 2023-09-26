@@ -518,6 +518,11 @@ footer p {
         background-color: #deec17;
         color: #118617;
     }
+
+    /* Footer */
+    #social-networks i:hover {
+        color: #deec17;
+    }
 }
 
 /* Media query: laptops and desktops large devices (992px plus) */
