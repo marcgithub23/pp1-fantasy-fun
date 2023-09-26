@@ -269,14 +269,19 @@ main {
 }
 
 /* Fanart gallery */
-#photos img {
+.gallery-container {
+    display: flex;
+    max-width: 1200px;
     width: 100%;
-    /* Adjust for image alt text */
-    line-height: 1em;
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
-#photos {
-    line-height: 0;
+.gallery-container img {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    object-position: top;
 }
 
 /* Book club page */
@@ -386,12 +391,6 @@ footer p {
 
 /* Media query: large phones or landscape mode (425px plus) */
 @media screen and (min-width: 425px) {
-    /* Fanart Gallery page */
-    #photos {
-        column-count: 2;
-        column-gap: 0;
-    }
-
     /* Subgenres & Recommendations page */
     #high-fantasy img,
     #low-fantasy img,
@@ -481,13 +480,6 @@ footer p {
         max-height: 50%;
     }
 
-    /* Fanart gallery */
-    #photos {
-        column-count: 3;
-        /* Avoid cutting off the top bit of images on larger screens */
-        margin-top: 12px;
-    }
-
     /* Book club page */
     #bookclub-desc img {
         max-width: 50%;
@@ -544,11 +536,6 @@ footer p {
     .column {
         flex: 50%;
         padding: 10px;
-    }
-
-    /* Fanart gallery */
-    #photos {
-        column-count: 4;
     }
 
     /* Book club page */
