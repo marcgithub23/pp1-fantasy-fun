@@ -1,7 +1,9 @@
 /* Google fonts import */
+
 @import url('https://fonts.googleapis.com/css2?family=Kameron:wght@400;700&family=McLaren&family=Work+Sans:ital@0;1&display=swap');
 
 /* Asterisk wildcard selector to override default styles */
+
 * {
     padding: 0;
     margin: 0;
@@ -9,6 +11,7 @@
 }
 
 /* General styles */
+
 body {
     min-height: 100vh;
     display: flex;
@@ -72,6 +75,7 @@ hr {
 }
 
 /* General section styles */
+
 #reasons,
 #info,
 #bookclub-desc,
@@ -89,6 +93,7 @@ hr {
 }
 
 /* Header */
+
 header {
     background-color: #201f1f;
     padding: 0 1rem;
@@ -128,6 +133,7 @@ h1 {
 }
 
 /* Navbar styles with dropdown toggle */
+
 nav {
     position: absolute;
     background-color: #201f1f;
@@ -140,6 +146,7 @@ nav {
 }
 
 /* Nav toggle */
+
 #nav-toggle:checked~nav {
     display: block;
 }
@@ -153,6 +160,7 @@ nav {
 }
 
 /* Main content */
+
 main {
     background-color: #292828;
     /* Make main element take up any surplus space to push footer down */
@@ -164,6 +172,7 @@ main {
 }
 
 /* Hero section */
+
 #hero {
     height: 600px;
     width: 100%;
@@ -190,21 +199,18 @@ main {
 
 #circle-cover-bg1 {
     background: url("../images/reasons-image.png") no-repeat center center / cover;
-    height: 90vw;
-    width: 90vw;
-    margin-bottom: 20px;
-    /* Turn square image into circle */
-    border-radius: 50%;
-    max-width: 300px;
-    max-height: 300px;
 }
 
 #circle-cover-bg2 {
     background: url("../images/info-image.png") no-repeat center center / cover;
+}
+
+#circle-cover-bg1,
+#circle-cover-bg2 {
     height: 90vw;
     width: 90vw;
     margin-bottom: 20px;
-    /* Turn square image into circle */
+    /* Turn square image into circle; Credit: Code Institute Love Running project */
     border-radius: 50%;
     max-width: 300px;
     max-height: 300px;
@@ -218,6 +224,7 @@ main {
 }
 
 /* Quote section */
+
 #quote-text {
     background-color: #211e1ea8;
     font-size: 110%;
@@ -229,6 +236,7 @@ main {
 }
 
 /* Subgenres & Recommendations page */
+
 #high-fantasy img,
 #low-fantasy img,
 #grimdark-fantasy img,
@@ -237,8 +245,6 @@ main {
 #steampunk-fantasy img,
 #fairytale-retelling-fantasy img {
     width: 100%;
-    /* Adjust for image alt text */
-    line-height: 1em;
 }
 
 #high-fantasy h4,
@@ -248,12 +254,12 @@ main {
 #urban-fantasy h4,
 #steampunk-fantasy h4,
 #fairytale-retelling-fantasy h4 {
-    margin-top: 2%;
+    margin-top: 2%;     /* Give space between book cover image and h4 */
 }
 
 .center-image {
     display: block;
-    margin-left: auto;
+    margin-left: auto;      /* Credit: W3Schools */
     margin-right: auto;
     width: 50%;
 }
@@ -273,22 +279,26 @@ main {
 }
 
 /* Fanart gallery */
+
+/* Credit: Responsive image gallery by Cem Eygi Media on YouTube */
 .gallery-container {
     display: flex;
     max-width: 1200px;
     width: 100%;
-    flex-wrap: wrap;
+    flex-wrap: wrap;    /* Make columns automatically responsive as screen size increases */
     justify-content: center;
 }
 
+/* Credit: Responsive image gallery by Cem Eygi Media on YouTube */
 .gallery-container img {
     width: 300px;
     height: 300px;
-    object-fit: cover;
-    object-position: top;
+    object-fit: cover;      /* Maintain aspect ratio of images while filling out container */
+    object-position: top;   /* Avoid cutting off characters' faces */
 }
 
 /* Book club page */
+
 .bookclub-h3 {
     display: inline-block;
     border-bottom: 3px solid #deec17;
