@@ -134,6 +134,7 @@ h1 {
 
 /* Navbar styles with dropdown toggle */
 
+/* Credit: Code Institute Love Running project */
 nav {
     position: absolute;
     background-color: #201f1f;
@@ -148,15 +149,15 @@ nav {
 /* Nav toggle */
 
 #nav-toggle:checked~nav {
-    display: block;
+    display: block;     /* Credit: Code Institute Love Running project */
 }
 
 #nav-toggle {
-    display: none;
+    display: none;      /* Credit: Code Institute Love Running project */
 }
 
 .nav-toggle-label {
-    font-size: 1.75rem;
+    font-size: 1.75rem;     /* Credit: Code Institute Love Running project */
 }
 
 /* Main content */
@@ -306,30 +307,32 @@ main {
 
 #bookclub-desc img {
     width: 100%;
-    /* Adjust for image alt text */
-    line-height: 1em;
-    margin-top: 5px;
+    margin-top: 5px;    /* Put space between book cover image and h3 */
 }
 
 #discord i {
     color: #118617;
     font-size: 120%;
-    padding: 0 5px;
+    padding: 0 5px;     /* Put space between preceding sentence */
 }
 
 /* Map */
+
+/* Credit: Code Institute Coders Coffeehouse project */
 #map-wrapper {
     height: 300px;
     margin-bottom: 107px;
 }
 
+/* Credit: Code Institute Coders Coffeehouse project */
 #map {
     height: 100%;
     width: 100%;
     border: none;
 }
 
-/* Form */
+/* Form; Credit: Code Institute Love Running project */
+
 #signup {
     padding: 20px 10% 0 10%;
     flex-grow: 1;
@@ -378,13 +381,15 @@ main {
     color: #deec17;
 }
 
+/* Credit: W3Schools */
 .center-button {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-/* Footer */
+/* Footer; Credit: Code Institute Love Running project */
+
 footer {
     background-color: #201f1f;
 }
@@ -409,9 +414,15 @@ footer p {
     color: #118617;
 }
 
+/* Mobile-first design */
+
 /* Media query: large phones or landscape mode (425px plus) */
+
 @media screen and (min-width: 425px) {
+    
     /* Subgenres & Recommendations page */
+
+    /* Make book cover images responsive, avoid images from getting too big */
     #high-fantasy img,
     #low-fantasy img,
     #grimdark-fantasy img,
@@ -424,6 +435,8 @@ footer p {
     }
 
     /* Book Club page */
+
+    /* Make book cover image responsive, avoid image from getting too big */
     #bookclub-desc img {
         max-width: 60%;
         max-height: 60%;
@@ -431,9 +444,12 @@ footer p {
 }
 
 /* Media query: tablets and larger devices (768px plus) */
+
 @media screen and (min-width: 768px) {
 
     /* Header */
+
+    /* Credit: Code Institute Love Running project */
     nav {
         display: block;
         position: relative;
@@ -442,19 +458,23 @@ footer p {
         padding-right: 1rem;
     }
 
+    /* Credit: Code Institute Love Running project */
     #menu {
         display: flex;
         max-width: min-content;
     }
 
+    /* Credit: Code Institute Love Running project */
     #menu>li {
         padding-left: 1rem;
     }
 
+    /* Credit: Code Institute Love Running project */
     .nav-toggle-label {
         display: none;
     }
 
+    /* Credit: Code Institute Love Running project */
     #logo {
         font-size: 230%;
         line-height: 50px;
@@ -462,17 +482,19 @@ footer p {
     }
 
     /* Main content */
+
     main {
-        /* Push main content to show underneath larger header */
-        margin-top: 75px;
+        margin-top: 75px;   /* Push main content to show underneath larger header */
     }
 
+    /* Center webpages on larger screens; Credit: W3Schools */
     main div {
         max-width: 80%;
         margin: auto;
     }
 
     /* Hero */
+
     #cover-text {
         margin: 5%;
     }
@@ -483,12 +505,15 @@ footer p {
     }
 
     /* Quote section */
+
     #quote-text {
         max-width: 50%;
         margin: 5% auto;
     }
 
     /* Subgenres & Recommendations page */
+
+    /* Make book cover images responsive, avoid images from getting too big */
     #high-fantasy img,
     #low-fantasy img,
     #grimdark-fantasy img,
@@ -501,16 +526,19 @@ footer p {
     }
 
     /* Book club page */
+
+    /* Make book cover image responsive, avoid image from getting too big */
     #bookclub-desc img {
         max-width: 50%;
         max-height: 50%;
     }
 
     #discord i:hover {
-        color: #deec17;
+        color: #deec17;     /* Make link icon interactive; Credit: Code Institute Love Running project */
     }
 
     /* Form */
+
     #signup {
         display: flex;
         justify-content: center;
@@ -521,24 +549,27 @@ footer p {
     }
 
     .text-input:hover {
-        border-color: #118617;
+        border-color: #118617; /* Make text input interactive; Credit: Code Institute Love Running project */
     }
 
+    /* Make join button interactive; Credit: Code Institute Love Running project */
     .join-button:hover {
         background-color: #deec17;
         color: #118617;
     }
 
     /* Footer */
+
     #social-networks i:hover {
-        color: #deec17;
+        color: #deec17; /* Make link icons interactive; Credit: Code Institute Love Running project */
     }
 }
 
 /* Media query: laptops and desktops large devices (992px plus) */
+
 @media screen and (min-width: 992px) {
     #menu a:hover {
-        border-bottom: 1px solid #118617;
+        border-bottom: 1px solid #118617; /* Make menu interactive; Credit: Code Institute Love Running project */
     }
 
     #cover-text {
@@ -547,6 +578,8 @@ footer p {
     }
 
     /* Subgenres & Recommendations page */
+
+    /* Make book cover images as uniform in size as possible */
     #high-fantasy img,
     #low-fantasy img,
     #grimdark-fantasy img,
@@ -560,15 +593,17 @@ footer p {
     }
 
     .row {
-        display: flex;
+        display: flex;  /* Create a 2-column layout; Credit: W3Schools */
     }
 
     .column {
-        flex: 50%;
+        flex: 50%;      /* Create a 2-column layout; Credit: W3Schools */
         padding: 10px;
     }
 
     /* Book club page */
+
+    /* Make book cover image responsive, avoid image from getting too big */
     #bookclub-desc img {
         max-width: 25%;
         max-height: 25%;
