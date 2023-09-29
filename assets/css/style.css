@@ -1,9 +1,7 @@
 /* Google fonts import */
-
 @import url('https://fonts.googleapis.com/css2?family=Kameron:wght@400;700&family=McLaren&family=Work+Sans:ital@0;1&display=swap');
 
 /* Asterisk wildcard selector to override default styles */
-
 * {
     padding: 0;
     margin: 0;
@@ -11,7 +9,6 @@
 }
 
 /* General styles */
-
 body {
     min-height: 100vh;
     display: flex;
@@ -75,7 +72,6 @@ hr {
 }
 
 /* General section styles */
-
 #reasons,
 #info,
 #bookclub-desc,
@@ -93,7 +89,6 @@ hr {
 }
 
 /* Header */
-
 header {
     background-color: #201f1f;
     padding: 0 1rem;
@@ -133,7 +128,6 @@ h1 {
 }
 
 /* Navbar styles with dropdown toggle */
-
 /* Credit: Code Institute Love Running project */
 nav {
     position: absolute;
@@ -147,7 +141,6 @@ nav {
 }
 
 /* Nav toggle */
-
 #nav-toggle:checked~nav {
     display: block;     /* Credit: Code Institute Love Running project */
 }
@@ -161,7 +154,6 @@ nav {
 }
 
 /* Main content */
-
 main {
     background-color: #292828;
     /* Make main element take up any surplus space to push footer down */
@@ -173,7 +165,6 @@ main {
 }
 
 /* Hero section */
-
 #hero {
     height: 600px;
     width: 100%;
@@ -201,7 +192,6 @@ main {
 }
 
 /* Reasons and info sections */
-
 #circle-cover-bg1 {
     background: url("../images/reasons-image.png") no-repeat center center / cover;
 }
@@ -229,7 +219,6 @@ main {
 }
 
 /* Quote section */
-
 #quote-text {
     background-color: #211e1ea8;
     font-size: 110%;
@@ -241,7 +230,6 @@ main {
 }
 
 /* Subgenres & Recommendations page */
-
 #high-fantasy img,
 #low-fantasy img,
 #grimdark-fantasy img,
@@ -284,7 +272,6 @@ main {
 }
 
 /* Fanart gallery */
-
 /* Credit: Responsive image gallery by Cem Eygi Media on YouTube */
 .gallery-container {
     display: flex;
@@ -304,7 +291,6 @@ main {
 }
 
 /* Book club page */
-
 .bookclub-h3 {
     display: inline-block;
     border-bottom: 3px solid #deec17;
@@ -322,7 +308,6 @@ main {
 }
 
 /* Map */
-
 /* Credit: Code Institute Coders Coffeehouse project */
 #map-wrapper {
     height: 300px;
@@ -337,7 +322,6 @@ main {
 }
 
 /* Form; Credit: Code Institute Love Running project */
-
 #signup {
     padding: 20px 10% 0 10%;
     flex-grow: 1;
@@ -420,13 +404,9 @@ footer p {
 }
 
 /* Mobile-first design */
-
 /* Media query: large phones or landscape mode (425px plus) */
-
 @media screen and (min-width: 425px) {
-    
     /* Subgenres & Recommendations page */
-
     /* Make book cover images responsive, avoid images from getting too big */
     #high-fantasy img,
     #low-fantasy img,
@@ -440,7 +420,6 @@ footer p {
     }
 
     /* Book Club page */
-
     /* Make book cover image responsive, avoid image from getting too big */
     #bookclub-desc img {
         max-width: 60%;
@@ -449,11 +428,8 @@ footer p {
 }
 
 /* Media query: tablets and larger devices (768px plus) */
-
 @media screen and (min-width: 768px) {
-
     /* Header */
-
     /* Credit: Code Institute Love Running project */
     nav {
         display: block;
@@ -487,7 +463,6 @@ footer p {
     }
 
     /* Main content */
-
     main {
         margin-top: 75px;   /* Push main content to show underneath larger header */
     }
@@ -499,7 +474,6 @@ footer p {
     }
 
     /* Hero */
-
     #cover-text {
         min-height: min-content;
         /* Center cover text; Credit: Juliia Konovalova, my mentor */
@@ -514,14 +488,12 @@ footer p {
     }
 
     /* Quote section */
-
     #quote-text {
         max-width: 50%;
         margin: 5% auto;
     }
 
     /* Subgenres & Recommendations page */
-
     /* Make book cover images responsive, avoid images from getting too big */
     #high-fantasy img,
     #low-fantasy img,
@@ -535,7 +507,6 @@ footer p {
     }
 
     /* Book club page */
-
     /* Make book cover image responsive, avoid image from getting too big */
     #bookclub-desc img {
         max-width: 50%;
@@ -547,7 +518,6 @@ footer p {
     }
 
     /* Form */
-
     #signup {
         display: flex;
         justify-content: center;
@@ -568,14 +538,12 @@ footer p {
     }
 
     /* Footer */
-
     #social-networks i:hover {
         color: #deec17; /* Make link icons interactive; Credit: Code Institute Love Running project */
     }
 }
 
 /* Media query: laptops and desktops large devices (992px plus) */
-
 @media screen and (min-width: 992px) {
     #menu a:hover {
         border-bottom: 1px solid #17b015; /* Make menu interactive; Credit: Code Institute Love Running project */
@@ -590,7 +558,6 @@ footer p {
     }
 
     /* Subgenres & Recommendations page */
-
     /* Make book cover images as uniform in size as possible */
     #high-fantasy img,
     #low-fantasy img,
@@ -618,7 +585,6 @@ footer p {
     }
 
     /* Book club page */
-
     /* Make book cover image responsive, avoid image from getting too big */
     #bookclub-desc img {
         max-width: 25%;
