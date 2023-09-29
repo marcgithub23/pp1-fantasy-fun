@@ -17,7 +17,7 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic project styles */
-    color: #118617;
+    color: #17b01f;
     font-family: 'Work Sans', sans-serif;
 }
 
@@ -29,7 +29,7 @@ h2 {
     font-family: 'McLaren', cursive;
     text-transform: capitalize;
     letter-spacing: 2px;
-    color: #118617;
+    color: #17b015;
     margin-bottom: 20px;
     text-align: center;
     font-size: 200%;
@@ -129,7 +129,7 @@ h1 {
 }
 
 .active {
-    border-bottom: 1px solid #118617;
+    border-bottom: 1px solid #17b015;
 }
 
 /* Navbar styles with dropdown toggle */
@@ -311,7 +311,7 @@ main {
 }
 
 #discord i {
-    color: #118617;
+    color: #17b015;
     font-size: 120%;
     padding: 0 5px;     /* Put space between preceding sentence */
 }
@@ -377,7 +377,7 @@ main {
     border-radius: 2px;
     padding: 15px 32px;
     font-size: 100%;
-    background-color: #118617;
+    background-color: #17b015;
     color: #deec17;
 }
 
@@ -411,7 +411,7 @@ footer p {
 #social-networks i {
     font-size: 150%;
     padding: 0 1.5rem;
-    color: #118617;
+    color: #17b015;
 }
 
 /* Mobile-first design */
@@ -549,13 +549,13 @@ footer p {
     }
 
     .text-input:hover {
-        border-color: #118617; /* Make text input interactive; Credit: Code Institute Love Running project */
+        border-color: #17b015; /* Make text input interactive; Credit: Code Institute Love Running project */
     }
 
     /* Make join button interactive; Credit: Code Institute Love Running project */
     .join-button:hover {
         background-color: #deec17;
-        color: #118617;
+        color: #17b015;
     }
 
     /* Footer */
@@ -569,7 +569,7 @@ footer p {
 
 @media screen and (min-width: 992px) {
     #menu a:hover {
-        border-bottom: 1px solid #118617; /* Make menu interactive; Credit: Code Institute Love Running project */
+        border-bottom: 1px solid #17b015; /* Make menu interactive; Credit: Code Institute Love Running project */
     }
 
     #cover-text {
