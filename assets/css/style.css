@@ -187,8 +187,12 @@ main {
     position: absolute;
     bottom: 150px;
     width: 85%;
-    min-height: 100px;
+    min-height: min-content;
     padding: 10px 10px;
+    /* Center cover text; Credit: Juliia Konovalova, my mentor */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 #cover-text>h2,
@@ -496,7 +500,11 @@ footer p {
     /* Hero */
 
     #cover-text {
-        margin: 5%;
+        min-height: min-content;
+        /* Center cover text; Credit: Juliia Konovalova, my mentor */
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
 
     #cover-text>h2,
@@ -574,7 +582,10 @@ footer p {
 
     #cover-text {
         width: 600px;
-        margin: 5% 30%;
+        /* Center cover text; Credit: Juliia Konovalova, my mentor */
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
     }
 
     /* Subgenres & Recommendations page */
