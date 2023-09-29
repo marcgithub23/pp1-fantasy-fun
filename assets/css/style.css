@@ -612,6 +612,10 @@ footer p {
         padding: 10px;
     }
 
+    .blurb {
+        min-height: 12rem;  /* Make blurb paragraph uniform in size; Credit: Juliia Konovalova, my mentor */
+    }
+
     /* Book club page */
 
     /* Make book cover image responsive, avoid image from getting too big */
