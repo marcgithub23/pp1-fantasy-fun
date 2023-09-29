@@ -292,6 +292,7 @@ main {
     width: 100%;
     flex-wrap: wrap;    /* Make columns automatically responsive as screen size increases */
     justify-content: center;
+    gap: 1rem;
 }
 
 /* Credit: Responsive image gallery by Cem Eygi Media on YouTube */
