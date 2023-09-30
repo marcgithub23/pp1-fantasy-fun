@@ -278,7 +278,7 @@ In order to make a local copy of this project, you can clone it. In your IDE Ter
 
 ### Images
 
-- Book cover images on the Subgenres & Recommendations page were sourced from [Goodreads](https://www.goodreads.com/).
+- Book cover images on the Subgenres & Recommendations page, as well as the Book Club page, were sourced from [Goodreads](https://www.goodreads.com/).
 - The following images were sourced from [Deviantart](https://www.deviantart.com/):
     - hero-image by [jbrown67](https://www.deviantart.com/jbrown67/art/Open-World-492422757)
     - reasons-image by [Gudai](https://www.deviantart.com/gudai/art/Spellbook-723771376)
