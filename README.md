@@ -165,7 +165,6 @@ The website can be accessed by this [link](https://marcgithub23.github.io/pp1-fa
 - [VSCode](https://code.visualstudio.com/) was used as the main tool to write and edit code.
 - [Git](https://git-scm.com/) was used for the version control of this website.
 - [GitHub](https://github.com/) was used to host the code of this website.
-- [TinyPNG](https://tinypng.com/) was used to optimise images for the website.
 
 ---
 
@@ -178,3 +177,130 @@ The website can be accessed by this [link](https://marcgithub23.github.io/pp1-fa
 - Black was used as the primary colour (60%) to evoke a dark, mysterious atmosphere often depicted in fantasy.
 - Green was used as the secondary colour (30%) to emulate an enchanted forest.
 - Gold was used as the accent colour (10%) to remind users of a treasure trove of golden loots.
+
+### Typography
+
+The following family fonts have been imported from Google Fonts:
+
+- Kameron for h1 headings
+- McLaren for h2 headings
+- Work sans for the rest of the elements (i.e., h3, h4, p, ul, etc.)
+
+### Wireframes
+
+#### Phone devices:
+
+- [Home page wireframe 1](documentation/phone-home1.png)
+- [Home page wireframe 2](documentation/phone-home2.png)
+- [Subgenres & Recommendations wireframe](documentation/phone-subgenre-recs.png)
+- [Fanart Gallery wireframe](documentation/phone-fanart-gallery.png)
+- [Book Club wireframe 1](documentation/phone-bookclub1.png)
+- [Book Club wireframe 2](documentation/phone-bookclub2.png)
+- [Book Club wireframe 3](documentation/phone-bookclub3.png)
+- [Response wireframe](documentation/phone-response.png)
+
+#### Tablet devices:
+
+- [Home page wireframe 1](documentation/tablet-home1.png)
+- [Home page wireframe 2](documentation/tablet-home2.png)
+- [Subgenres & Recommendations wireframe](documentation/tablet-subgenres-recs.png)
+- [Fanart Gallery wireframe](documentation/tablet-fanart-gallery.png)
+- [Book Club wireframe 1](documentation/tablet-bookclub1.png)
+- [Book Club wireframe 2](documentation/tablet-bookclub2.png)
+- [Book Club wireframe 3](documentation/tablet-bookclub3.png)
+- [Response wireframe](documentation/tablet-response.png)
+
+#### Laptop or desktop devices:
+
+- [Home page wireframe 1](documentation/largedevice-home1.png)
+- [Home page wireframe 2](documentation/tablet-home2.png)
+- [Subgenres & Recommendations wireframe](documentation/largedevice-subgenres-recs.png)
+- [Fanart Gallery wireframe](documentation/largedevice-fanart-gallery.png)
+- [Book Club wireframe 1](documentation/largedevice-bookclub1.png)
+- [Book Club wireframe 2](documentation/largedevice-bookclub2.png)
+- [Book Club wireframe 3](documentation/largedevice-bookclub3.png)
+- [Response wireframe](documentation/largedevice-response.png)
+
+---
+
+## Testing
+
+Tests done are documented in the [TESTING.md](TESTING.md) file.
+
+---
+
+## Deployment
+
+### Deployment to GitHub Pages
+
+- The site was deployed to GitHub pages. The steps to deploy are as follows: 
+  - In the [GitHub repository](https://github.com/marcgithub23/pp1-fantasy-fun), navigate to the Settings tab 
+  - From the source section drop-down menu, select the **Main** Branch, then click "Save".
+  - The page will be automatically refreshed with a detailed ribbon display to indicate the successful deployment.
+
+The live link can be found [here](https://marcgithub23.github.io/pp1-fantasy-fun/)
+
+### Local Deployment
+
+In order to make a local copy of this project, you can clone it. In your IDE Terminal, type the following command to clone my repository:
+
+- `git clone https://github.com/marcgithub23/pp1-fantasy-fun.git`
+
+- Alternatively, if you use Gitpod, you can [click here](https://gitpod.io/#https://github.com/marcgithub23/pp1-fantasy-fun), which will start the Gitpod workspace for you.
+
+---
+
+## Credits
+
+### Coding
+
+- The title icon is from flaticon - [Magic icons created by Freepik - Flaticon](https://www.flaticon.com/free-icons/magic).
+- [Fontjoy](https://fontjoy.com/) was used to find font pairings.
+- [Fontawesome](https://fontawesome.com/) was used for icon toolkit.
+- Aspects of this website have been inspired from the Coders Coffeehouse project and the Love Running project on [Code Institute](https://codeinstitute.net/ie/)
+- [W3Schools](https://www.w3schools.com/) has been consulted for the following coding queries:
+    - How to centre images
+    - How to centre a website
+    - How to create 2-column grid using flexbox
+    - How to centre a button
+- [Responsive Image Gallery with HTML & CSS (Flexbox)](https://www.youtube.com/watch?v=QmZNFnqwu74) by Cem Eygi Media was consulted for the Fanart Gallery page.
+- [Juliia Konovalova](https://github.com/IuliiaKonovalova), my mentor, provided me the code to centre the cover text
+
+### Text Content
+
+- This [article](https://www.flux-academy.com/blog/how-to-strategically-use-color-in-website-design#:~:text=To%20start%2C%20I%20recommend%20choosing,and%2010%25%20the%20accent%20color.) by Stephanie Corrigan was consulted to help determine the colour scheme for the website.
+- The reasons for reading fantasy section was adapted from this [article](https://ellemcfadzean.com/5-reasons-to-read-fantasy/) by Elle McFadzean.
+- The history of fantasy was adapted from this [Wikipedia article](https://en.wikipedia.org/wiki/History_of_fantasy).
+- The fantasy book sales statistics were sourced from this [article](https://wordsrated.com/fantasy-book-sales-statistics/) on Wordsrated.
+- Content on the Subgenres & Recommendations page was adapted from this [article](https://bookriot.com/fantasy-sub-genre-primer/) by Lyndsie Manusos, as well as from the following videos by these amazing BookTubers, [Captured in Words](https://www.youtube.com/@CapturedInWords) and [Library of a Viking](https://www.youtube.com/@libraryofaviking):
+    - [The Ultimate Guide to Fantasy Sub Genres](https://www.youtube.com/watch?v=CTlEiEyX80k)
+    - [The Ultimate Guide to Epic Fantasy (why so many subgenres!?)](https://www.youtube.com/watch?v=uhr_j7RkXgI)
+
+### Images
+
+- Book cover images on the Subgenres & Recommendations page were sourced from [Goodreads](https://www.goodreads.com/).
+- The following images were sourced from [Deviantart](https://www.deviantart.com/):
+    - hero-image by [jbrown67](https://www.deviantart.com/jbrown67/art/Open-World-492422757)
+    - reasons-image by [Gudai](https://www.deviantart.com/gudai/art/Spellbook-723771376)
+    - fanart-image1 by [gantzu](https://www.deviantart.com/gantzu/art/Fantasy-Elf-835118177)
+    - fanart-image2 by [JJcanvas](https://www.deviantart.com/jjcanvas/art/X-611331020)
+    - fanart-image3 by [eddie-mendoza](https://www.deviantart.com/eddie-mendoza/art/The-Meditation-Garden-775650874)
+    - fanart-image4 by [JoshCalloway](https://www.deviantart.com/joshcalloway/art/Fantasy-Character-Lineup-646168548)
+    - fanart-image5 by [darekzabrocki](https://www.deviantart.com/darekzabrocki/art/Accolade-591575670)
+    - fanart-image6 by [DusanMarkovic](https://www.deviantart.com/dusanmarkovic/art/The-Sorcerer-Book-598007127)
+    - fanart-image7 by [88grzes](https://www.deviantart.com/88grzes/art/Enhanced-Surveillance-Magic-the-Gathering-765337294)
+    - fanart-image8 by [88grzes](https://www.deviantart.com/88grzes/art/Torbran-Thane-of-Red-Fell-Magic-the-Gathering-814728708)
+    - fanart-image9 by [Sarctic](https://www.deviantart.com/sarctic/art/Shallan-Davar-491412050)
+    - fanart-image10 by [SeraphOfTheRain](https://www.deviantart.com/seraphoftherain/art/Mistborn-99380321)
+    - fanart-image11 by [ByanEl](https://www.deviantart.com/byanel/art/Adventurer-party-6-965188674)
+    - fanart-image12 by [ByanEl](https://www.deviantart.com/byanel/art/On-a-quest-957967411)
+
+### Tools
+
+- [TinyPNG](https://tinypng.com/) was used to optimise images for the website.
+
+---
+
+## Acknowledgements
+
+I'd like to thank [Juliia Konovalova](https://github.com/IuliiaKonovalova), my mentor, for her invaluable support and advice that helped improve my code and the final outcome of the website.
