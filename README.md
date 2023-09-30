@@ -301,6 +301,13 @@ In order to make a local copy of this project, you can clone it. In your IDE Ter
 
 ---
 
+## Learning Reflections
+
+- I got lost half way through the project and constantly found myself getting side tracked or confused as to what I was in the middle of doing or what I was supposed to do next. In the future, I will follow the tips and advice outlined in this [article](https://medium.com/@cristian.ceamatu/the-best-way-to-clone-create-any-website-in-very-simple-steps-3e4f467567ba) by Cristian Ceamatu to improve my workflow, organisation, and productivity.
+- As a learning outcome of this project, I now have a better understanding of when to use ID and class selectors. While cleaning up my code, I realised that I'd been using IDs where I could have used classes instead, as a consequence I've noticed the fact that my CSS codebase is unnecessarily bloated. In the future, I will follow the DRY principle as much as possible, as well as apply the BEM convention.
+
+---
+
 ## Acknowledgements
 
 I'd like to thank [Juliia Konovalova](https://github.com/IuliiaKonovalova), my mentor, for her invaluable support and advice that helped improve my code and the final outcome of the website.
